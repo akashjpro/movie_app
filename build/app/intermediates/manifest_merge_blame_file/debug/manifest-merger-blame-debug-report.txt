@@ -1,0 +1,176 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.techieblossom.movieapp"
+4    android:versionCode="2"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:9:10-71
+14-->/Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:9:27-69
+15
+16    <queries>
+16-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-11:15
+17        <intent>
+17-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-10:18
+18            <action android:name="android.support.customtabs.action.CustomTabsService" />
+18-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-90
+18-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:9:21-87
+19        </intent>
+20    </queries>
+21
+22    <application
+23        android:name="android.app.Application"
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.8.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/845c7deb023ae534777f14cbdf2bb530/core-1.8.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/launcher_icon"
+27        android:label="Movie App" >
+28        <activity
+29            android:name="com.example.movieapp.MainActivity"
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31            android:hardwareAccelerated="true"
+32            android:launchMode="singleTop"
+33            android:theme="@style/LaunchTheme"
+34            android:windowSoftInputMode="adjustResize" >
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+43                android:name="io.flutter.embedding.android.NormalTheme"
+44                android:resource="@style/NormalTheme" />
+45            <!--
+46                 Displays an Android View that continues showing the launch screen
+47                 Drawable until Flutter paints its first frame, then this splash
+48                 screen fades out. A splash screen is useful to avoid any visual
+49                 gap between the end of Android's launch screen and the painting of
+50                 Flutter's first frame.
+51            -->
+52            <meta-data
+53                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+54                android:resource="@drawable/launch_background" />
+55
+56            <intent-filter>
+57                <action android:name="android.intent.action.MAIN" />
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+60            </intent-filter>
+61        </activity>
+62        <!--
+63             Don't delete the meta-data below.
+64             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+65        -->
+66        <meta-data
+67            android:name="flutterEmbedding"
+68            android:value="2" />
+69
+70        <activity
+70-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-18:47
+71            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+71-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-104
+72            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+72-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-137
+73            android:exported="false"
+73-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-37
+74            android:theme="@style/AppTheme" />
+74-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-44
+75        <activity
+75-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-22:55
+76            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+76-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-112
+77            android:exported="false"
+77-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+78            android:theme="@style/ThemeTransparent" />
+78-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-52
+79        <activity
+79-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-26:55
+80            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+80-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-106
+81            android:exported="false"
+81-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-37
+82            android:theme="@style/ThemeTransparent" />
+82-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-52
+83        <activity
+83-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-31:55
+84            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+84-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-126
+85            android:exported="false"
+85-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-37
+86            android:launchMode="singleInstance"
+86-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-48
+87            android:theme="@style/ThemeTransparent" />
+87-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-52
+88        <activity
+88-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:32:9-36:55
+89            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+89-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-120
+90            android:exported="false"
+90-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-37
+91            android:launchMode="singleInstance"
+91-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-48
+92            android:theme="@style/ThemeTransparent" />
+92-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-52
+93
+94        <receiver
+94-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:38:9-41:40
+95            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+95-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-111
+96            android:enabled="true"
+96-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-35
+97            android:exported="false" />
+97-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-37
+98
+99        <meta-data
+99-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:43:9-45:36
+100            android:name="io.flutter.embedded_views_preview"
+100-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-61
+101            android:value="true" />
+101-->[:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-33
+102
+103        <uses-library
+103-->[androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+104            android:name="androidx.window.extensions"
+104-->[androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+105            android:required="false" />
+105-->[androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+106        <uses-library
+106-->[androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+107            android:name="androidx.window.sidecar"
+107-->[androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+108            android:required="false" />
+108-->[androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+109
+110        <provider
+110-->[androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+111            android:name="androidx.startup.InitializationProvider"
+111-->[androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+112            android:authorities="com.techieblossom.movieapp.androidx-startup"
+112-->[androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+113            android:exported="false" >
+113-->[androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+114            <meta-data
+114-->[androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+115                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+115-->[androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+116                android:value="androidx.startup" />
+116-->[androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+117            <meta-data
+117-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+118                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+118-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+119                android:value="androidx.startup" />
+119-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+120        </provider>
+121    </application>
+122
+123</manifest>

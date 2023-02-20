@@ -1,0 +1,279 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:10:5-48:19
+MERGED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-46:19
+MERGED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-46:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/409df643f162cae355bb95c3e4a77f4b/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/409df643f162cae355bb95c3e4a77f4b/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.core:core:1.8.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/845c7deb023ae534777f14cbdf2bb530/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/845c7deb023ae534777f14cbdf2bb530/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/35b0faee5211466ba7309d0f8520abe4/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/35b0faee5211466ba7309d0f8520abe4/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/845c7deb023ae534777f14cbdf2bb530/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+MERGED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+MERGED from [:shared_preferences_android] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-48:12
+MERGED from [:sqflite] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/847729d6f299ea499d90d2a7a6ced7ff/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/2477f0a14c013374004335d1f0376b1d/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/cfc3a517804bcb92e7b071db71f17cde/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b0003d8b11b4bd6a068d0306f2e00af8/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/3ea5e0aee4ad5a0452c4f200c962c5e8/jetified-activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/a7207aea4e058bea6609922984ca47b2/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/58a55b886d963145469b4cda8770063e/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/aa976758e23b9d3193e37a2d810d5187/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/abc48f8caa3d9ebe63019a64adba81bc/webkit-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b9d391cde457ed48a8886231baa7c79a/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/17f436b65298fd8ade1df4edd47425e9/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/8899c8fa14817b865d42b5a7689ac78d/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/409df643f162cae355bb95c3e4a77f4b/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/540c9caf3fca2e2bdf80f478d1367fde/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/9dcc893451fe10b41177b29a7b0920d2/jetified-core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/c5b8705e4ae02dd31fa0e2adfe53c169/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/8602ad635c444c160db446b9983704d9/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/356ee8a8719ce82ff7f5caa6a81a9fc7/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/12fbe1055794433d6706b792db14f4ea/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/19fd05d77419d329babcfae8259138b0/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.8.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/845c7deb023ae534777f14cbdf2bb530/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/35b0faee5211466ba7309d0f8520abe4/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/475e82940f55a51e5ea8c24ffaf7e9ac/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/90a42982565d1139e612bcf23efd86ff/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b32b323d31a6bfb79ff9c0996d132ac2/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/1bb9351617202ae26c2b07e48e8204fc/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/aeaa31a6f94da43e7328a26e6266374a/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/a6f2d640f0f46c9e8ac0cdcbb522d29c/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/ddbfc7e174a0a3f1c6dfcbcbcdcba8dd/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/80096e97af6ddca0c5049ea228c851d7/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:2:5-35
+		INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:9:10-71
+MERGED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:9:10-71
+MERGED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:9:10-71
+	android:name
+		ADDED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml:9:27-69
+uses-sdk
+INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/847729d6f299ea499d90d2a7a6ced7ff/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/847729d6f299ea499d90d2a7a6ced7ff/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/2477f0a14c013374004335d1f0376b1d/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/2477f0a14c013374004335d1f0376b1d/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/cfc3a517804bcb92e7b071db71f17cde/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/cfc3a517804bcb92e7b071db71f17cde/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b0003d8b11b4bd6a068d0306f2e00af8/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b0003d8b11b4bd6a068d0306f2e00af8/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/3ea5e0aee4ad5a0452c4f200c962c5e8/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/3ea5e0aee4ad5a0452c4f200c962c5e8/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/a7207aea4e058bea6609922984ca47b2/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/a7207aea4e058bea6609922984ca47b2/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/58a55b886d963145469b4cda8770063e/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/58a55b886d963145469b4cda8770063e/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/aa976758e23b9d3193e37a2d810d5187/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/aa976758e23b9d3193e37a2d810d5187/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/abc48f8caa3d9ebe63019a64adba81bc/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/abc48f8caa3d9ebe63019a64adba81bc/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.4.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b9d391cde457ed48a8886231baa7c79a/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b9d391cde457ed48a8886231baa7c79a/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/17f436b65298fd8ade1df4edd47425e9/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/17f436b65298fd8ade1df4edd47425e9/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/8899c8fa14817b865d42b5a7689ac78d/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/8899c8fa14817b865d42b5a7689ac78d/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/409df643f162cae355bb95c3e4a77f4b/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/409df643f162cae355bb95c3e4a77f4b/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/540c9caf3fca2e2bdf80f478d1367fde/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/540c9caf3fca2e2bdf80f478d1367fde/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/9dcc893451fe10b41177b29a7b0920d2/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/9dcc893451fe10b41177b29a7b0920d2/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/c5b8705e4ae02dd31fa0e2adfe53c169/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/c5b8705e4ae02dd31fa0e2adfe53c169/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/8602ad635c444c160db446b9983704d9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/8602ad635c444c160db446b9983704d9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/356ee8a8719ce82ff7f5caa6a81a9fc7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/356ee8a8719ce82ff7f5caa6a81a9fc7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/12fbe1055794433d6706b792db14f4ea/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/12fbe1055794433d6706b792db14f4ea/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/19fd05d77419d329babcfae8259138b0/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/19fd05d77419d329babcfae8259138b0/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.8.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/845c7deb023ae534777f14cbdf2bb530/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/845c7deb023ae534777f14cbdf2bb530/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/35b0faee5211466ba7309d0f8520abe4/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/35b0faee5211466ba7309d0f8520abe4/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/475e82940f55a51e5ea8c24ffaf7e9ac/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/475e82940f55a51e5ea8c24ffaf7e9ac/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/90a42982565d1139e612bcf23efd86ff/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/90a42982565d1139e612bcf23efd86ff/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b32b323d31a6bfb79ff9c0996d132ac2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b32b323d31a6bfb79ff9c0996d132ac2/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/1bb9351617202ae26c2b07e48e8204fc/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/1bb9351617202ae26c2b07e48e8204fc/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/aeaa31a6f94da43e7328a26e6266374a/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/aeaa31a6f94da43e7328a26e6266374a/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/a6f2d640f0f46c9e8ac0cdcbb522d29c/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/a6f2d640f0f46c9e8ac0cdcbb522d29c/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/ddbfc7e174a0a3f1c6dfcbcbcdcba8dd/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/ddbfc7e174a0a3f1c6dfcbcbcdcba8dd/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/80096e97af6ddca0c5049ea228c851d7/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/80096e97af6ddca0c5049ea228c851d7/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/android/app/src/debug/AndroidManifest.xml
+queries
+ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-11:15
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-10:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-90
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:9:21-87
+activity#com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity
+ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-18:47
+	android:exported
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-37
+	android:configChanges
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-137
+	android:theme
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-44
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-104
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity
+ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-22:55
+	android:exported
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-112
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity
+ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-26:55
+	android:exported
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-106
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance
+ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-31:55
+	android:launchMode
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-48
+	android:exported
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-126
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance
+ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:32:9-36:55
+	android:launchMode
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-48
+	android:exported
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-120
+receiver#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver
+ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:38:9-41:40
+	android:enabled
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-35
+	android:exported
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-111
+meta-data#io.flutter.embedded_views_preview
+ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:43:9-45:36
+	android:value
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-33
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-61
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b8aedef0d62afb7d906f0d5818c1d001/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/409df643f162cae355bb95c3e4a77f4b/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/409df643f162cae355bb95c3e4a77f4b/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/atangky/.gradle/caches/transforms-2/files-2.1/b563e7634f4cc6710759cd36a2d321bd/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/atangky/.gradle/caches/transforms-2/files-2.1/14602e633e1df854099ebaa459b3b80b/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/path_provider_android/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/atangky/.gradle/caches/transforms-2/files-2.1/28c816e02f0bbb1d3db728c8a0e60b75/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/path_provider_android/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/atangky/.gradle/caches/transforms-2/files-2.1/28c816e02f0bbb1d3db728c8a0e60b75/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/path_provider_android/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/atangky/.gradle/caches/transforms-2/files-2.1/28c816e02f0bbb1d3db728c8a0e60b75/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/atangky/Desktop/Clean Architecture/Flutter/movie_app_tutorial-23_release_app/build/path_provider_android/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/atangky/.gradle/caches/transforms-2/files-2.1/28c816e02f0bbb1d3db728c8a0e60b75/core-1.6.0/res/drawable/notification_bg_low.xml"
+    }
+]
